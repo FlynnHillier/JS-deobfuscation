@@ -16,5 +16,18 @@
   "bugs": {
     "url": "https://github.com/FlynnHillier/JS-deobfuscation/issues"
   },
-  "homepage": "https://github.com/FlynnHillier/JS-deobfuscation#readme"
+  "homepage": "https://github.com/FlynnHillier/JS-deobfuscation#readme",
+  "dependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/generator": "^7.20.14",
+    "@babel/parser": "^7.20.15",
+    "@babel/traverse": "^7.20.13",
+    "@babel/types": "^7.20.7"
+  },
+  "devDependencies": {
+    "@types/babel__generator": "^7.6.4",
+    "@types/babel__parser": "^7.1.1",
+    "@types/babel__traverse": "^7.18.3",
+    "@types/node": "^18.13.0"
+  }
 }
